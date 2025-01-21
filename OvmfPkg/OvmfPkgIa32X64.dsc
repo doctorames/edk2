@@ -714,6 +714,9 @@
   MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
 
   OvmfPkg/PlatformPei/PlatformPei.inf
+  #######################################
+  OvmfPkg/meme/meme.inf
+  #######################################
 
   UefiCpuPkg/Universal/Acpi/S3Resume2Pei/S3Resume2Pei.inf {
     <LibraryClasses>

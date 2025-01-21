@@ -1,0 +1,40 @@
+## @file
+# pewp
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = MemePei
+  FILE_GUID                      = 03d687ad-d4fc-42af-8e67-6bdd663422b6
+  MODULE_TYPE                    = PEIM
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = EntryPoint
+
+
+[Sources]
+  meme.c
+
+[Packages]
+  EmbeddedPkg/EmbeddedPkg.dec
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  SecurityPkg/SecurityPkg.dec
+  UefiCpuPkg/UefiCpuPkg.dec
+  OvmfPkg/OvmfPkg.dec
+
+[Guids]
+
+[LibraryClasses]
+  BaseLib
+  DebugLib
+
+[Pcd]
+
+[FixedPcd]
+
+[FeaturePcd]
+
+[Ppis]
+
+[Depex]
+  TRUE
