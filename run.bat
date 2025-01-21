@@ -1,4 +1,5 @@
 @echo off
+if not exist debug.log echo.>debug.log
 start tail -f debug.log
 
 qemu ^
