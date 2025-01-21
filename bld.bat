@@ -1,0 +1,1 @@
+build -Y PCD -Y LIBRARY -Y DEPEX -Y BUILD_FLAGS -Y FLASH -Y FIXED_ADDRESS -y reportfile.txt
