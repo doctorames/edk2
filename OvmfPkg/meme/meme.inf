@@ -33,7 +33,7 @@
 
 [Pcd]
 
-[PatchablePcd]
+[PatchPcd]
   gUefiOvmfPkgTokenSpaceGuid.PcdPatchTest
 
 [FixedPcd]
