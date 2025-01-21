@@ -437,6 +437,8 @@
   # builds of shim that use the protocol incorrectly.
   gUefiOvmfPkgTokenSpaceGuid.PcdUninstallMemAttrProtocol|FALSE|BOOLEAN|0x67
 
+  gUefiOvmfPkgTokenSpaceGuid.PcdPatchTest|0xdeadbeef|UINT32|0x74
+
 [PcdsFeatureFlag]
   gUefiOvmfPkgTokenSpaceGuid.PcdQemuBootOrderPciTranslation|TRUE|BOOLEAN|0x1c
   gUefiOvmfPkgTokenSpaceGuid.PcdQemuBootOrderMmioTranslation|FALSE|BOOLEAN|0x1d
