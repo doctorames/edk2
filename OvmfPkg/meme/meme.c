@@ -20,9 +20,9 @@ EntryPoint (
 
   DEBUG ((DEBUG_INFO, "meme start\n"));
 
-  UINT32 var = PcdGet32(PcdPatchTest);
+  VOID* ptr = &(PcdGet32(PcdPatchTest));
 
-  DEBUG ((DEBUG_INFO, "PcdPatchTest: %x\n", var));
+  DEBUG ((DEBUG_INFO, "PcdPatchTest addr: %p, value: %x\n", ptr, *((UINT32*)ptr)  ));
 
   return EFI_SUCCESS;
 }

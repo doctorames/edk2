@@ -44,3 +44,6 @@
 
 [Depex]
   TRUE
+
+[BuildOptions]
+  *_*_*_CC_FLAGS = -P
